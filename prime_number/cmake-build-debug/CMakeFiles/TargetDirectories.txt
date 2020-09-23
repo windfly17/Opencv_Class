@@ -1,0 +1,3 @@
+D:/Desktop/Opencv_Class/prime_number/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/Opencv_Class/prime_number/cmake-build-debug/CMakeFiles/prime_number.dir
+D:/Desktop/Opencv_Class/prime_number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
