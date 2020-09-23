@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Desktop/Opencv_Class/test_1/exp_2.cpp">
+		<Unit filename="D:/Desktop/Opencv_Class/test_1/exp_1.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="D:/Desktop/Opencv_Class/test_1/CMakeLists.txt">

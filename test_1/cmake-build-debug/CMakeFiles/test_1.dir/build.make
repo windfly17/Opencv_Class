@@ -61,33 +61,33 @@ include CMakeFiles\test_1.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\test_1.dir\flags.make
 
-CMakeFiles\test_1.dir\exp_2.cpp.obj: CMakeFiles\test_1.dir\flags.make
-CMakeFiles\test_1.dir\exp_2.cpp.obj: ..\exp_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\test_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_1.dir/exp_2.cpp.obj"
+CMakeFiles\test_1.dir\exp_1.cpp.obj: CMakeFiles\test_1.dir\flags.make
+CMakeFiles\test_1.dir\exp_1.cpp.obj: ..\exp_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\test_1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_1.dir/exp_1.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\test_1.dir\exp_2.cpp.obj /FdCMakeFiles\test_1.dir\ /FS -c D:\Desktop\Opencv_Class\test_1\exp_2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\test_1.dir\exp_1.cpp.obj /FdCMakeFiles\test_1.dir\ /FS -c D:\Desktop\Opencv_Class\test_1\exp_1.cpp
 <<
 
-CMakeFiles\test_1.dir\exp_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_1.dir/exp_2.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\test_1.dir\exp_2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\test_1\exp_2.cpp
+CMakeFiles\test_1.dir\exp_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_1.dir/exp_1.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\test_1.dir\exp_1.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\test_1\exp_1.cpp
 <<
 
-CMakeFiles\test_1.dir\exp_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/exp_2.cpp.s"
+CMakeFiles\test_1.dir\exp_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/exp_1.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\test_1.dir\exp_2.cpp.s /c D:\Desktop\Opencv_Class\test_1\exp_2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\test_1.dir\exp_1.cpp.s /c D:\Desktop\Opencv_Class\test_1\exp_1.cpp
 <<
 
 # Object files for target test_1
 test_1_OBJECTS = \
-"CMakeFiles\test_1.dir\exp_2.cpp.obj"
+"CMakeFiles\test_1.dir\exp_1.cpp.obj"
 
 # External object files for target test_1
 test_1_EXTERNAL_OBJECTS =
 
-test_1.exe: CMakeFiles\test_1.dir\exp_2.cpp.obj
+test_1.exe: CMakeFiles\test_1.dir\exp_1.cpp.obj
 test_1.exe: CMakeFiles\test_1.dir\build.make
 test_1.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 test_1.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
