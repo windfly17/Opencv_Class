@@ -1,0 +1,3 @@
+D:/Desktop/Opencv_Class/test_1/cmake-build-release/CMakeFiles/rebuild_cache.dir
+D:/Desktop/Opencv_Class/test_1/cmake-build-release/CMakeFiles/test_1.dir
+D:/Desktop/Opencv_Class/test_1/cmake-build-release/CMakeFiles/edit_cache.dir
