@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/Desktop/Opencv_Class/test_2/Draw_Circle.cpp
+D:/Desktop/Opencv_Class/test_2/histgram.cpp
 iostream
 -
 opencv2/opencv.hpp

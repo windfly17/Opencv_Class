@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Desktop/Opencv_Class/test_2/Draw_Circle.cpp" "D:/Desktop/Opencv_Class/test_2/cmake-build-debug/CMakeFiles/test_2.dir/Draw_Circle.cpp.obj"
+  "D:/Desktop/Opencv_Class/test_2/histgram.cpp" "D:/Desktop/Opencv_Class/test_2/cmake-build-debug/CMakeFiles/test_2.dir/histgram.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -127,32 +127,32 @@ test_2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\build
 .PHONY : test_2\fast
 
-Draw_Circle.obj: Draw_Circle.cpp.obj
+histgram.obj: histgram.cpp.obj
 
-.PHONY : Draw_Circle.obj
+.PHONY : histgram.obj
 
 # target to build an object file
-Draw_Circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\Draw_Circle.cpp.obj
-.PHONY : Draw_Circle.cpp.obj
+histgram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\histgram.cpp.obj
+.PHONY : histgram.cpp.obj
 
-Draw_Circle.i: Draw_Circle.cpp.i
+histgram.i: histgram.cpp.i
 
-.PHONY : Draw_Circle.i
+.PHONY : histgram.i
 
 # target to preprocess a source file
-Draw_Circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\Draw_Circle.cpp.i
-.PHONY : Draw_Circle.cpp.i
+histgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\histgram.cpp.i
+.PHONY : histgram.cpp.i
 
-Draw_Circle.s: Draw_Circle.cpp.s
+histgram.s: histgram.cpp.s
 
-.PHONY : Draw_Circle.s
+.PHONY : histgram.s
 
 # target to generate assembly for a file
-Draw_Circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\Draw_Circle.cpp.s
-.PHONY : Draw_Circle.cpp.s
+histgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\test_2.dir\histgram.cpp.s
+.PHONY : histgram.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_2
-	@echo ... Draw_Circle.obj
-	@echo ... Draw_Circle.i
-	@echo ... Draw_Circle.s
+	@echo ... histgram.obj
+	@echo ... histgram.i
+	@echo ... histgram.s
 .PHONY : help
 
 

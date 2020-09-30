@@ -61,33 +61,33 @@ include CMakeFiles\test_2.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\test_2.dir\flags.make
 
-CMakeFiles\test_2.dir\Draw_Circle.cpp.obj: CMakeFiles\test_2.dir\flags.make
-CMakeFiles\test_2.dir\Draw_Circle.cpp.obj: ..\Draw_Circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\test_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_2.dir/Draw_Circle.cpp.obj"
+CMakeFiles\test_2.dir\histgram.cpp.obj: CMakeFiles\test_2.dir\flags.make
+CMakeFiles\test_2.dir\histgram.cpp.obj: ..\histgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\test_2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_2.dir/histgram.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\test_2.dir\Draw_Circle.cpp.obj /FdCMakeFiles\test_2.dir\ /FS -c D:\Desktop\Opencv_Class\test_2\Draw_Circle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\test_2.dir\histgram.cpp.obj /FdCMakeFiles\test_2.dir\ /FS -c D:\Desktop\Opencv_Class\test_2\histgram.cpp
 <<
 
-CMakeFiles\test_2.dir\Draw_Circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_2.dir/Draw_Circle.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\test_2.dir\Draw_Circle.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\test_2\Draw_Circle.cpp
+CMakeFiles\test_2.dir\histgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_2.dir/histgram.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\test_2.dir\histgram.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\test_2\histgram.cpp
 <<
 
-CMakeFiles\test_2.dir\Draw_Circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_2.dir/Draw_Circle.cpp.s"
+CMakeFiles\test_2.dir\histgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_2.dir/histgram.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\test_2.dir\Draw_Circle.cpp.s /c D:\Desktop\Opencv_Class\test_2\Draw_Circle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\test_2.dir\histgram.cpp.s /c D:\Desktop\Opencv_Class\test_2\histgram.cpp
 <<
 
 # Object files for target test_2
 test_2_OBJECTS = \
-"CMakeFiles\test_2.dir\Draw_Circle.cpp.obj"
+"CMakeFiles\test_2.dir\histgram.cpp.obj"
 
 # External object files for target test_2
 test_2_EXTERNAL_OBJECTS =
 
-test_2.exe: CMakeFiles\test_2.dir\Draw_Circle.cpp.obj
+test_2.exe: CMakeFiles\test_2.dir\histgram.cpp.obj
 test_2.exe: CMakeFiles\test_2.dir\build.make
 test_2.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 test_2.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
