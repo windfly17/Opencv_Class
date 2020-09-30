@@ -55,8 +55,8 @@ int main()
     histgram(img0,histgram_R,Scalar(0,0,255));
 
     imshow("B",img0);
-    imshow("G",img1);
-    imshow("R",img2);
+//    imshow("G",img1);
+//    imshow("R",img2);
     waitKey(0);
 //    std::cout<< histgram_B[0] <<std::endl;
     return 0;
