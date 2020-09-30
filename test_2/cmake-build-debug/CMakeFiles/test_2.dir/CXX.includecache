@@ -9,6 +9,10 @@
 D:/Desktop/Opencv_Class/test_2/histgram.cpp
 opencv2/opencv.hpp
 -
+iostream
+-
+algorithm
+-
 
 D:/Opencv_4.3.0/opencv/build/include/opencv2/calib3d.hpp
 opencv2/core.hpp

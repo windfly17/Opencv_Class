@@ -1,25 +1,31 @@
 #include <opencv2/opencv.hpp>
+#include <iostream>
+#include <algorithm>
 
 using namespace std;
 using namespace cv;
 
+int hist_w = 510;
+int hist_h = 300;
+
 void histgram(Mat src, float histgram_R[256], Scalar color)
 {
     for (int i = 0; i < 255; i++) {
-        Point p1(i*2, 300-histgram_R[i]*1700);
-        Point p2(i*2+2, 300-histgram_R[i+1]*1700);
-        line(src,p1,p2,color,2);
+        Point p1(i*2, hist_h-histgram_R[i]*1700);
+        Point p2(i*2+2, hist_h-histgram_R[i+1]*1700);
+        line(src,p1,p2,color,1);
     }
 }
 
 int main()
 {
-    Mat img0 = Mat::zeros(Size(560,300), CV_8UC3);
-    img0.setTo(0);
-    Mat img1 = Mat::zeros(Size(560,300), CV_8UC3);
-    img1.setTo(0);
-    Mat img2 = Mat::zeros(Size(560,300), CV_8UC3);
-    img2.setTo(0);
+    cv::Mat img_show = Mat::zeros(Size(hist_w*2+4,hist_h*2+4), CV_8UC3);
+    cv::Mat img = Mat::zeros(Size(hist_w,hist_h), CV_8UC3);
+    cv::Mat img_R,img_G,img_B;
+    img.setTo(0);
+    img.copyTo(img_R);
+    img.copyTo(img_G);
+    img.copyTo(img_B);
     cv::Mat srcMat = imread("D:\\Desktop\\Opencv_Class\\test_2\\1.png");
     float histgram_R[256],histgram_G[256],histgram_B[256];
     int height = srcMat.rows;
@@ -50,14 +56,31 @@ int main()
         histgram_B[i]=histgram_B[i]/pix;
     }
 
-    histgram(img0,histgram_B,Scalar(255,0,0));
-    histgram(img0,histgram_G,Scalar(0,255,0));
-    histgram(img0,histgram_R,Scalar(0,0,255));
+    histgram(img,histgram_B,Scalar(255,0,0));
+    histgram(img,histgram_G,Scalar(0,255,0));
+    histgram(img,histgram_R,Scalar(0,0,255));
 
-    imshow("B",img0);
-//    imshow("G",img1);
-//    imshow("R",img2);
-    waitKey(0);
-//    std::cout<< histgram_B[0] <<std::endl;
+    histgram(img_B,histgram_B,Scalar(255,0,0));
+    histgram(img_G,histgram_G,Scalar(0,255,0));
+    histgram(img_R,histgram_R,Scalar(0,0,255));
+
+    img.copyTo(img_show(Rect(0,0,hist_w,hist_h)));
+    img_R.copyTo(img_show(Rect(hist_w+4,0,hist_w,hist_h)));
+    img_G.copyTo(img_show(Rect(0,hist_h+4,hist_w,hist_h)));
+    img_B.copyTo(img_show(Rect(hist_w+4,hist_h+4,hist_w,hist_h)));
+
+    rectangle(img_show,Point(hist_w+1,0),Point(hist_w+3,hist_h*2+4),Scalar(200, 200, 200),-1);
+    rectangle(img_show,Point(0,hist_h+1),Point(hist_w*2+4,hist_h+3),Scalar(200, 200, 200),-1);
+
+    imshow("RGB",img_show);
+//    imshow("B",img_B);
+//    imshow("G",img_G);
+//    imshow("R",img_R);
+    while (true) {
+        if (waitKey(1) == 27)
+        {
+            break;
+        }
+    }
     return 0;
 }
