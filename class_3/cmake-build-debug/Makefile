@@ -127,32 +127,32 @@ class_3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\build
 .PHONY : class_3\fast
 
-trackbar.obj: trackbar.cpp.obj
+threshold.obj: threshold.cpp.obj
 
-.PHONY : trackbar.obj
+.PHONY : threshold.obj
 
 # target to build an object file
-trackbar.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\trackbar.cpp.obj
-.PHONY : trackbar.cpp.obj
+threshold.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\threshold.cpp.obj
+.PHONY : threshold.cpp.obj
 
-trackbar.i: trackbar.cpp.i
+threshold.i: threshold.cpp.i
 
-.PHONY : trackbar.i
+.PHONY : threshold.i
 
 # target to preprocess a source file
-trackbar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\trackbar.cpp.i
-.PHONY : trackbar.cpp.i
+threshold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\threshold.cpp.i
+.PHONY : threshold.cpp.i
 
-trackbar.s: trackbar.cpp.s
+threshold.s: threshold.cpp.s
 
-.PHONY : trackbar.s
+.PHONY : threshold.s
 
 # target to generate assembly for a file
-trackbar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\trackbar.cpp.s
-.PHONY : trackbar.cpp.s
+threshold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_3.dir\threshold.cpp.s
+.PHONY : threshold.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... class_3
-	@echo ... trackbar.obj
-	@echo ... trackbar.i
-	@echo ... trackbar.s
+	@echo ... threshold.obj
+	@echo ... threshold.i
+	@echo ... threshold.s
 .PHONY : help
 
 

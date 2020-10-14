@@ -3,9 +3,22 @@
 using namespace cv;
 using namespace std;
 
+int block_size=15;
+
+void blocksize(int block_size1, void* ){
+    if(block_size1<3)
+        block_size = 3;
+    else if(block_size1%2)
+        block_size = block_size1;
+    else
+        block_size = block_size1+1;
+}
+
 int main() {
     VideoCapture cap(0, CAP_DSHOW);
 
+    int block_size_min = 1;
+    int block_size_max = 50;
     double scale=0.5;
     while(true) {
         cv::Mat frame, thresMat, thresMat_adapt, rFrame_G;
@@ -20,7 +33,7 @@ int main() {
 
         cv::cvtColor(rFrame, rFrame_G, COLOR_BGR2GRAY);
         cv::threshold(rFrame_G,thresMat,150,255, THRESH_BINARY);
-        cv::adaptiveThreshold(rFrame_G, thresMat_adapt, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, 15, 10);
+        cv::adaptiveThreshold(rFrame_G, thresMat_adapt, 255, ADAPTIVE_THRESH_GAUSSIAN_C, THRESH_BINARY_INV, block_size, 10);
 
         thresMat.copyTo(showMat(Rect(0,0, rFrame.cols, rFrame.rows)));
         thresMat_adapt.copyTo(showMat(Rect(rFrame.cols+2,0, rFrame.cols, rFrame.rows)));
@@ -29,6 +42,7 @@ int main() {
 
         cv::imshow("frame", rFrame);
         cv::imshow("result", showMat);
+        cv::createTrackbar("block_size","result",&block_size_min,block_size_max,blocksize);
 
         if (waitKey(1) == 27)
         {

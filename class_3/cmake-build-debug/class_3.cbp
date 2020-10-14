@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Desktop/Opencv_Class/class_3/trackbar.cpp">
+		<Unit filename="D:/Desktop/Opencv_Class/class_3/threshold.cpp">
 			<Option target="class_3"/>
 		</Unit>
 		<Unit filename="D:/Desktop/Opencv_Class/class_3/CMakeLists.txt">

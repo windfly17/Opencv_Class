@@ -5,7 +5,7 @@ using namespace cv;
 int main() {
     VideoCapture cap(0, CAP_DSHOW);
 
-    double scale=0.5;
+    double scale=1;
     //肤色范围
     double i_minH=0;
     double i_maxH=20;

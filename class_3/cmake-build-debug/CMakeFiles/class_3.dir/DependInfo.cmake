@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Desktop/Opencv_Class/class_3/trackbar.cpp" "D:/Desktop/Opencv_Class/class_3/cmake-build-debug/CMakeFiles/class_3.dir/trackbar.cpp.obj"
+  "D:/Desktop/Opencv_Class/class_3/threshold.cpp" "D:/Desktop/Opencv_Class/class_3/cmake-build-debug/CMakeFiles/class_3.dir/threshold.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/class_3.dir/trackbar.cpp.obj"
+  "CMakeFiles/class_3.dir/threshold.cpp.obj"
   "class_3.exe"
   "class_3.exe.manifest"
   "class_3.lib"

@@ -61,33 +61,33 @@ include CMakeFiles\class_3.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\class_3.dir\flags.make
 
-CMakeFiles\class_3.dir\trackbar.cpp.obj: CMakeFiles\class_3.dir\flags.make
-CMakeFiles\class_3.dir\trackbar.cpp.obj: ..\trackbar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\class_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/class_3.dir/trackbar.cpp.obj"
+CMakeFiles\class_3.dir\threshold.cpp.obj: CMakeFiles\class_3.dir\flags.make
+CMakeFiles\class_3.dir\threshold.cpp.obj: ..\threshold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\class_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/class_3.dir/threshold.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\class_3.dir\trackbar.cpp.obj /FdCMakeFiles\class_3.dir\ /FS -c D:\Desktop\Opencv_Class\class_3\trackbar.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\class_3.dir\threshold.cpp.obj /FdCMakeFiles\class_3.dir\ /FS -c D:\Desktop\Opencv_Class\class_3\threshold.cpp
 <<
 
-CMakeFiles\class_3.dir\trackbar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_3.dir/trackbar.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\class_3.dir\trackbar.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\class_3\trackbar.cpp
+CMakeFiles\class_3.dir\threshold.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_3.dir/threshold.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\class_3.dir\threshold.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\class_3\threshold.cpp
 <<
 
-CMakeFiles\class_3.dir\trackbar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_3.dir/trackbar.cpp.s"
+CMakeFiles\class_3.dir\threshold.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_3.dir/threshold.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\class_3.dir\trackbar.cpp.s /c D:\Desktop\Opencv_Class\class_3\trackbar.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\class_3.dir\threshold.cpp.s /c D:\Desktop\Opencv_Class\class_3\threshold.cpp
 <<
 
 # Object files for target class_3
 class_3_OBJECTS = \
-"CMakeFiles\class_3.dir\trackbar.cpp.obj"
+"CMakeFiles\class_3.dir\threshold.cpp.obj"
 
 # External object files for target class_3
 class_3_EXTERNAL_OBJECTS =
 
-class_3.exe: CMakeFiles\class_3.dir\trackbar.cpp.obj
+class_3.exe: CMakeFiles\class_3.dir\threshold.cpp.obj
 class_3.exe: CMakeFiles\class_3.dir\build.make
 class_3.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 class_3.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
