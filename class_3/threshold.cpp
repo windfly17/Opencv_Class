@@ -17,9 +17,9 @@ void blocksize(int block_size1, void* ){
 int main() {
     VideoCapture cap(0, CAP_DSHOW);
 
-    int block_size_min = 1;
-    int block_size_max = 50;
-    double scale=0.5;
+    int block_size_min = 15;
+    int block_size_max = 80;
+    double scale=1;
     while(true) {
         cv::Mat frame, thresMat, thresMat_adapt, rFrame_G;
 
