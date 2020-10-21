@@ -1,3 +1,0 @@
-D:/Desktop/Opencv_Class/class_3/cmake-build-debug/CMakeFiles/class_3.dir
-D:/Desktop/Opencv_Class/class_3/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Desktop/Opencv_Class/class_3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
