@@ -14,7 +14,7 @@ int main() {
     while (true){
         cap >> frame;
 
-        cv:Mat skin, skin_1, skin_blur, result_1, result, detectMat, detectMat_fs;
+        cv::Mat skin, skin_1, skin_blur, result_1, result, detectMat, detectMat_fs;
         Size ResImgSiz = Size(frame.cols * scale, frame.rows * scale);
         cv::Mat rframe = Mat(ResImgSiz, frame.type());
         cv::resize(frame, rframe, ResImgSiz, INTER_LINEAR);
