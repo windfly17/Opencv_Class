@@ -5,9 +5,9 @@ using namespace std;
 
 int main() {
     cv::Mat pic_g, pic_th, pic_pz, pic_close;
-    cv::Mat pic = imread(R"(D:\Desktop\Opencv_Class\class_8\1.jpg)");
+    cv::Mat pic = imread(R"(D:\Desktop\Opencv_Class\class_8\2.jpg)");
     cv::cvtColor(pic, pic_g, COLOR_BGR2GRAY);
-    cv::threshold(~pic_g, pic_th, 150, 255, 0);
+    cv::threshold(pic_g, pic_th, 180, 255, 0);
 
     cv::Mat element = cv::getStructuringElement(MORPH_RECT, Size(2, 2));
     cv::dilate(pic_th, pic_pz, element);
@@ -18,11 +18,11 @@ int main() {
     cv::findContours(pic_close, contours, hierarchy, RETR_LIST, CHAIN_APPROX_NONE);
     for (int i = 0; i < contours.size(); ++i){
         double area =contourArea(contours[i]);
-        double factor = (area * 4 * CV_PI) /(pow(arcLength(contours[i], true), 2));
-        if(factor >= 0.5 && area >= 300){
-            cout << "factor:" << factor << " " << i << endl;  //计算出圆形度factor
-            cout << "Area:" << area << endl;
-            drawContours(pic, contours, i, Scalar(0,255,0), -1, LINE_AA, vector<Vec4i>(), 0);
+        if(2000 <= area && area <= 3000){
+            cout << "Area:" << area << " " << i << endl;
+            RotatedRect rect = minAreaRect(contours[i]);
+            rectangle(pic,rect.boundingRect(),Scalar(0,0,255));
+            drawContours(pic, contours, i, Scalar(0,255,0), 1, LINE_AA, vector<Vec4i>(), 0);
         }
     }
 
