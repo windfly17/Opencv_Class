@@ -154,33 +154,6 @@ DFT.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_10.dir\DFT.cpp.s
 .PHONY : DFT.cpp.s
 
-funtions.obj: funtions.cpp.obj
-
-.PHONY : funtions.obj
-
-# target to build an object file
-funtions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_10.dir\funtions.cpp.obj
-.PHONY : funtions.cpp.obj
-
-funtions.i: funtions.cpp.i
-
-.PHONY : funtions.i
-
-# target to preprocess a source file
-funtions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_10.dir\funtions.cpp.i
-.PHONY : funtions.cpp.i
-
-funtions.s: funtions.cpp.s
-
-.PHONY : funtions.s
-
-# target to generate assembly for a file
-funtions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\class_10.dir\funtions.cpp.s
-.PHONY : funtions.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,9 +166,6 @@ help:
 	@echo ... DFT.obj
 	@echo ... DFT.i
 	@echo ... DFT.s
-	@echo ... funtions.obj
-	@echo ... funtions.i
-	@echo ... funtions.s
 .PHONY : help
 
 

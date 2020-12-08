@@ -87,12 +87,6 @@
 		<Unit filename="D:/Desktop/Opencv_Class/class_10/DFT.cpp">
 			<Option target="class_10"/>
 		</Unit>
-		<Unit filename="D:/Desktop/Opencv_Class/class_10/funtions.cpp">
-			<Option target="class_10"/>
-		</Unit>
-		<Unit filename="D:/Desktop/Opencv_Class/class_10/funtions.h">
-			<Option target="class_10"/>
-		</Unit>
 		<Unit filename="D:/Desktop/Opencv_Class/class_10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

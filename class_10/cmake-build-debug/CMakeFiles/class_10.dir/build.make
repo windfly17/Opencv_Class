@@ -80,35 +80,14 @@ CMakeFiles\class_10.dir\DFT.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\class_10.dir\DFT.cpp.s /c D:\Desktop\Opencv_Class\class_10\DFT.cpp
 <<
 
-CMakeFiles\class_10.dir\funtions.cpp.obj: CMakeFiles\class_10.dir\flags.make
-CMakeFiles\class_10.dir\funtions.cpp.obj: ..\funtions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\Opencv_Class\class_10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/class_10.dir/funtions.cpp.obj"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\class_10.dir\funtions.cpp.obj /FdCMakeFiles\class_10.dir\ /FS -c D:\Desktop\Opencv_Class\class_10\funtions.cpp
-<<
-
-CMakeFiles\class_10.dir\funtions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_10.dir/funtions.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe > CMakeFiles\class_10.dir\funtions.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Desktop\Opencv_Class\class_10\funtions.cpp
-<<
-
-CMakeFiles\class_10.dir\funtions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_10.dir/funtions.cpp.s"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\class_10.dir\funtions.cpp.s /c D:\Desktop\Opencv_Class\class_10\funtions.cpp
-<<
-
 # Object files for target class_10
 class_10_OBJECTS = \
-"CMakeFiles\class_10.dir\DFT.cpp.obj" \
-"CMakeFiles\class_10.dir\funtions.cpp.obj"
+"CMakeFiles\class_10.dir\DFT.cpp.obj"
 
 # External object files for target class_10
 class_10_EXTERNAL_OBJECTS =
 
 class_10.exe: CMakeFiles\class_10.dir\DFT.cpp.obj
-class_10.exe: CMakeFiles\class_10.dir\funtions.cpp.obj
 class_10.exe: CMakeFiles\class_10.dir\build.make
 class_10.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 class_10.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
@@ -127,7 +106,7 @@ class_10.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 class_10.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 class_10.exe: D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib
 class_10.exe: CMakeFiles\class_10.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\Opencv_Class\class_10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable class_10.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\Opencv_Class\class_10\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable class_10.exe"
 	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\class_10.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\class_10.dir\objects1.rsp @<<
  /out:class_10.exe /implib:class_10.lib /pdb:D:\Desktop\Opencv_Class\class_10\cmake-build-debug\class_10.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console  D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib D:\Opencv_4.3.0\opencv\build\x64\vc15\lib\opencv_world430d.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

@@ -7,5 +7,5 @@ set(OpenCV_DIR D:\\Opencv_4.3.0\\opencv\\build)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(class_10 DFT.cpp funtions.cpp)
+add_executable(class_10 DFT.cpp )
 target_link_libraries(class_10 ${OpenCV_LIBS})

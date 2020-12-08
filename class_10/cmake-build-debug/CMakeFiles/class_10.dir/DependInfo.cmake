@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Desktop/Opencv_Class/class_10/DFT.cpp" "D:/Desktop/Opencv_Class/class_10/cmake-build-debug/CMakeFiles/class_10.dir/DFT.cpp.obj"
-  "D:/Desktop/Opencv_Class/class_10/funtions.cpp" "D:/Desktop/Opencv_Class/class_10/cmake-build-debug/CMakeFiles/class_10.dir/funtions.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

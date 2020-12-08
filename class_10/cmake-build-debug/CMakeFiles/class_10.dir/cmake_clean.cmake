@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/class_10.dir/DFT.cpp.obj"
-  "CMakeFiles/class_10.dir/funtions.cpp.obj"
   "class_10.exe"
   "class_10.exe.manifest"
   "class_10.lib"
