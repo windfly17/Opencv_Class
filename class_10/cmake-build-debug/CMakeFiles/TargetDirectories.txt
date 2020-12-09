@@ -1,3 +1,0 @@
-D:/Desktop/Opencv_Class/class_10/cmake-build-debug/CMakeFiles/class_10.dir
-D:/Desktop/Opencv_Class/class_10/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Desktop/Opencv_Class/class_10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
